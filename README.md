@@ -1,16 +1,48 @@
-# firebase_flutter
+ПРАКТИЧЕСКАЯ РАБОТА №8
+FirebaseAuth.
+Цель работы: реализовать аутентификацию пользователя в firebase, через разработанное приложение.
+Для работы с Firebase на Windows необходимо установить Node.js. После того, как Node.js будет установлен, откройте терминал и введите следующую команду: npm install -g firebase-tools. Эта команда запустит процесс загрузки пакета firebase-tools, который необходим для взаимодействия с вашей учетной записью на Windows.
+Этапы подключения firebase к flutter:
+• Создаем учетную запись в firebase
+• Открываем терминал и выполняем команду для авторизации
+firebase на windows: firebase login
+• Создаем проект в firebase который будем подключать к проекту
+• Добавляем Firebase в свое приложение 9 (при помощи команды flutterfire configure –project-test-firebase-…)
+ 
+Рисунок 67 - необходимые библиотеки
 
-A new Flutter project.
+ 
+Рисунок 68 - Реализация авторизации
 
-## Getting Started
+ 
+Рисунок 69 - Реализация регистрации
+Результат работы:
+ 
+Рисунок 70 – Авторизация
+ 
+Рисунок 71 – Регистрация
+Вывод: удалось реализовать аутентификацию firebase в приложении.
+ 
+ПРАКТИЧЕСКАЯ РАБОТА №9
+FireStore.
+Цель работы: реализовать хранение и взаимодействие с данными в firestore через разработанное приложение.
+Flutter Firestore - это NoSQL база данных, которая предоставляет гибкое и масштабируемое хранилище данных для приложений Flutter. Firestore разработана Google и является частью Firebase, платформы облачных сервисов для разработки приложений.
+За вывод актуальных данных из firestore отвечает stream builder:
+ 
+Рисунок 72 - Stream builder
+ 
+Рисунок 73 - Вывод актуальных данных
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+ 
+Рисунок 74 - Реализация добавления
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ 
+Рисунок 75 - Реализация редактирования
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
+Рисунок 76 - Реализация удаления
+Результат работы:
+ 
+Рисунок 77 - Результат работы
+Вывод: удалось реализовать взаимодействие с данными в firestore.
